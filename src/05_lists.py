@@ -27,3 +27,16 @@ print(x)
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+
+# Solution 1:
+x_1000 = []
+for i in x:
+    x_1000.append(i * 1000)
+print(x_1000)
+
+# Solution 2:
+for i in x:
+    print(i * 1000)
+
+# Solution 3:
+print([num * 1000 for num in x])
